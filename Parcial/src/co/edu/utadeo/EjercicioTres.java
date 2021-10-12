@@ -123,4 +123,13 @@ public class EjercicioTres {
         return acum;
     }
 
+    @Override
+    public String toString() {
+        return "EjercicioTres{" +
+                "V=" + V +
+                ", E=" + E +
+                ", edge=" + Arrays.toString(edge) +
+                '}';
+    }
+
 }

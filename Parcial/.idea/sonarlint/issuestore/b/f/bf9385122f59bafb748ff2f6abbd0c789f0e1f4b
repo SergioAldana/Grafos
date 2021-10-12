@@ -1,9 +1,19 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Œëüûÿÿÿÿÿ8…ªî‹Ç/
-U	java:S106H"9Replace this use of System.out or System.err by a logger.(ï„¡à8˜‡“ŠÇ/
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€ü¬8ı®ñ‹Ç/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÇÖúúÿÿÿÿ8ı®ñ‹Ç/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ìşëÁ8™úÕ‹Ç/
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(şóÄ¿8ëØ‹Ç/
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(şóÄ¿8ëØ‹Ç/
+U
+java:S1197"8Move the array designator from the variable to the type.(™ŞÒÿ8Ä–«Ç/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ìşëÁ8™úÕ‹Ç/
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(´­Ó°ùÿÿÿÿ8õÏè­Ç/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€ü¬8ı®ñ‹Ç/
+T	java:S1068"9Replace this use of System.out or System.err by a logger.(·Çå,8ŸÀñ­Ç/
+X	java:S1257"<This block of commented-out lines of code should be removed.(ß™¤8ŸÀñ­Ç/
+X	java:S125:"<This block of commented-out lines of code should be removed.(¡Õ±š8ŸÀñ­Ç/
+T	java:S1069"9Replace this use of System.out or System.err by a logger.(³‚ŒA8í¾€®Ç/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Œëüûÿÿÿÿÿ8…ªî‹Ç/
+T	java:S1060"9Replace this use of System.out or System.err by a logger.(Î’8÷¦æ­Ç/
+]	java:S125="<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ŸÀñ­Ç/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÇÖúúÿÿÿÿ8ı®ñ‹Ç/
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ÜÛúşÿÿÿÿ8· …®Ç/
+T	java:S106."9Replace this use of System.out or System.err by a logger.(¬çıh8­ã­Ç/
 r	java:S117
 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¢ÓÛüÿÿÿÿ8…ªî‹Ç/
