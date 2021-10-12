@@ -9,18 +9,14 @@ public class App {
 
         int N;
 
-        /* Let us create following weighted ejercicioTres
-                 10
-            0--------1
-            |  \     |
-           6|   5\   |15
-            |      \ |
-            2--------3
-                4       */
         //Ciclos del programa
         System.out.println("Numero de veces que quiere que se ejecute el programa: ");
         Scanner scanner = new Scanner(System.in);
         N = scanner.nextInt();
+
+        //De acuerdo al numero de veces que se repita el programa, osea N,
+        //se creara N numero de objetos de la clase EjericioTres
+        EjercicioTres iteraciones[] = new EjercicioTres[N];
 
         for (int i = 0; i < N; i++) {
 
@@ -37,12 +33,15 @@ public class App {
             Scanner scannerDos = new Scanner(System.in);
             E = scannerDos.nextInt();
 
-            //int V = 4;  // Number of vertices in ejercicioTres
-            //int E = 5;  // Number of edges in ejercicioTres
+            //Aqui enlazo el indide del arreglo en el que este con un nuevo
+            //Objeto EjercicioTres
+            iteraciones[i] = new EjercicioTres(V, E);
 
-            EjercicioTres ejercicioTres = new EjercicioTres(V, E);
+            //EjercicioTres ejercicioTres = new EjercicioTres(V, E);
 
             for (int j = 0; j < E; j++) {
+
+                iteraciones[i].edge[j].src = 0;
 
                 // add edge 0-1
                 ejercicioTres.edge[0].src = 0;
