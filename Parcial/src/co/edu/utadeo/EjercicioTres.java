@@ -18,7 +18,7 @@ public class EjercicioTres {
     }
 
     // A class to represent a subset for union-find
-    class subset {
+    class Subset {
 
         int parent, rank;
 
@@ -38,7 +38,7 @@ public class EjercicioTres {
 
     // A utility function to find set of an element i
     // (uses path compression technique)
-    int find(subset subsets[], int i) {
+    int find(Subset subsets[], int i) {
         // find root and make root as parent of i (path compression)
         if (subsets[i].parent != i)
             subsets[i].parent = find(subsets, subsets[i].parent);
@@ -48,7 +48,7 @@ public class EjercicioTres {
 
     // A function that does union of two sets of x and y
     // (uses union by rank)
-    void Union(subset subsets[], int x, int y) {
+    void Union(Subset subsets[], int x, int y) {
         int xroot = find(subsets, x);
         int yroot = find(subsets, y);
 
@@ -69,7 +69,7 @@ public class EjercicioTres {
 
     // The main function to construct MST using Kruskal's algorithm
     long KruskalMST() {
-        Edge result[] = new Edge[V];  // Tnis will store the resultant MST
+        Edge result[] = new Edge[V];  // This will store the resultant MST
         int e = 0;  // An index variable, used for result[]
         int i = 0;  // An index variable, used for sorted edges
         for (i = 0; i < V; ++i)
@@ -81,9 +81,9 @@ public class EjercicioTres {
         Arrays.sort(edge);
 
         // Allocate memory for creating V ssubsets
-        subset subsets[] = new subset[V];
+        Subset subsets[] = new Subset[V];
         for (i = 0; i < V; ++i)
-            subsets[i] = new subset();
+            subsets[i] = new Subset();
 
         // Create V subsets with single elements
         for (int v = 0; v < V; ++v) {

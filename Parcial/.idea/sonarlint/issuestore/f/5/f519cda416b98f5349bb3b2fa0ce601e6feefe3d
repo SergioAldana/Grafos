@@ -1,34 +1,31 @@
 
-e	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ºü%
-l	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÏ€ıÿÿÿÿ
-O	java:S106¦"9Replace this use of System.out or System.err by a logger.(ï„¡à
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼ûŞŠúÿÿÿÿ
-l	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ç¡¹úÿÿÿÿ
-R
-java:S1854d"=Remove this useless assignment to local variable "next_edge".(¥ºü%
+t
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¾¬üÿÿÿÿ
 8
 java:S1659""Declare "rank" on a separate line.(¢²ÆØ
-h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù½éşÿÿÿÿ
 N
 java:S1197H"8Move the array designator from the variable to the type.(°óôÓ
+R
+java:S1854d"=Remove this useless assignment to local variable "next_edge".(¥ºü%
+S
+java:S1197)"8Move the array designator from the variable to the type.(Åˆøÿÿÿÿ
 S
 java:S11973"8Move the array designator from the variable to the type.(í¨‘Ãùÿÿÿÿ
-N
-java:S1197T"8Move the array designator from the variable to the type.(îÿè‰
-S
-java:S1197"8Move the array designator from the variable to the type.(ÙıïÙıÿÿÿÿ
+f	java:S116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıøî øÿÿÿÿ
+h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù½éşÿÿÿÿ
+f	java:S116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıøî øÿÿÿÿ
 ?
 java:S1659
 "$Declare "weight" on a separate line.(“Ï¹ùÿÿÿÿ
-S
-java:S1197)"8Move the array designator from the variable to the type.(Åˆøÿÿÿÿ
-f	java:S116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıøî øÿÿÿÿ
-t
-java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¾¬üÿÿÿÿ
-:
-java:S1659"Declare "E" on a separate line.(ıøî øÿÿÿÿ
 h	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¨‘Ãùÿÿÿÿ
-f	java:S116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıøî øÿÿÿÿ
 =
 java:S1659
 ""Declare "dest" on a separate line.(“Ï¹ùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(ÙıïÙıÿÿÿÿ
+:
+java:S1659"Declare "E" on a separate line.(ıøî øÿÿÿÿ
+N
+java:S1197T"8Move the array designator from the variable to the type.(îÿè‰
+e	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ºü%
