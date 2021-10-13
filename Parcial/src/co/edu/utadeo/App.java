@@ -43,11 +43,11 @@ public class App {
 
             for (int j = 0; j < E; j++) {
 
-                System.out.print("Origen: ");
+                System.out.print("O: ");
                 iteraciones[i].edge[j].src = scanner4.nextInt();
-                System.out.print("Destino: ");
+                System.out.print("D: ");
                 iteraciones[i].edge[j].dest = scanner5.nextInt();
-                System.out.print("Peso: ");
+                System.out.print("P: ");
                 iteraciones[i].edge[j].weight = scanner6.nextInt();
 
             }
@@ -58,6 +58,8 @@ public class App {
             } catch (ArrayIndexOutOfBoundsException a) {
                 System.out.println("Lo siento, Krilin no podra ser revivido");
             }
+
+            //Diagramacion del grafo? Como podria imp...
 
         }
     }
